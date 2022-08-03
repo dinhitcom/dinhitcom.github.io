@@ -5,7 +5,7 @@ $(document).ready(() => {
         inputString += String.fromCharCode(e.which)
         console.log(inputString)
         if (inputString.endsWith('xyzzy')) {
-            window.location.replace("http://facebook.com/din0saur");
+            window.location.href = "http://facebook.com/din0saur";
         }
     })
 })
